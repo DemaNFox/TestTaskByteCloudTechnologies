@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="chart-graf">
+        <div class="range-block">
+          <div class="range">
+            <label for="storage"
+              >Storage: <span class="storageval">100</span></label
+            >
+            <input
+              type="range"
+              id="storage"
+              name="storage"
+              min="0"
+              max="1000"
+              value="100"
+              step="1"
+            />
+          </div>
+          <div class="range">
+            <label for="transfer"
+              >Transfer: <span class="transferval">200</span></label
+            >
+            <input
+              type="range"
+              id="transfer"
+              name="transfer"
+              min="0"
+              max="1000"
+              value="200"
+              step="1"
+            />
+          </div>
+        </div>
+        <div class="chart-block">
+          <div class="chart-comp">
+            <div class="copm">
+              <span>backblaze</span>
+            </div>
+            <div class="copm">
+              <span>bunny</span>
+              <div class="comp-options">
+                <div class="radio">
+                  <input type="radio" id="a1" name="radio1" value="hhd" />
+                  <label for="a1">HHD</label>
+                </div>
+                <div class="radio">
+                  <input
+                    type="radio"
+                    id="a2"
+                    name="radio1"
+                    value="ssd"
+                    checked
+                  />
+                  <label for="a2">SSD</label>
+                </div>
+              </div>
+            </div>
+            <div class="copm">
+              <span>scaleway</span>
+              <div class="comp-options">
+                <div class="radio">
+                  <input
+                    type="radio"
+                    id="a3"
+                    name="radio2"
+                    value="single"
+                    checked
+                  />
+                  <label for="a3">Single</label>
+                </div>
+                <div class="radio">
+                  <input type="radio" id="a4" name="radio2" value="multi" />
+                  <label for="a4">Multi</label>
+                </div>
+              </div>
+            </div>
+            <div class="copm">
+              <span>vultr</span>
+            </div>
+          </div>
+          <div class="graf">
+            <span>
+              <span class="grafline"></span>
+              <span class="grafprice">0%</span>
+            </span>
+            <span>
+              <span class="grafline"></span>
+              <span class="grafprice">0%</span>
+            </span>
+            <span>
+              <span class="grafline"></span>
+              <span class="grafprice">0%</span>
+            </span>
+            <span>
+              <span class="grafline"></span>
+              <span class="grafprice">0%</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
