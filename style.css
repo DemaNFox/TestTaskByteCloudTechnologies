@@ -149,6 +149,7 @@
       margin-top: 10px;
       height: 125px;
       align-items: end;
+      gap: 0;
     }
   }
 }
