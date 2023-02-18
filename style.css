@@ -107,6 +107,7 @@
   }
   .chart-block {
     flex-direction: column-reverse;
+    padding-top: 150px; 
   }
   .range-block {
     order: 2;
